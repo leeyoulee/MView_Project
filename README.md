@@ -5,8 +5,7 @@ beauty shop model search and reservation chat application in Android
 _____________
 
 <div>
- <img width="200" src="https://user-images.githubusercontent.com/56157366-4ecc8600-5ffa-11e9-815d-289cda87f6d9.png">
- <img width="200" src="https://user-images.githubusercontent.com/56157402-64da4680-5ffa-11e9-8979-d002a2e31175.png">
- <img width="200" src="https://user-images.githubusercontent.com/56157411-6b68be00-5ffa-11e9-9eb5-742ef28d8240.png">
+ <img width="200" src="https://user-images.githubusercontent.com/56157634-f3e75e80-5ffa-11e9-88cf-403892641b47.png">
+ <img width="200" src="https://user-images.githubusercontent.com/56157636-f47ff500-5ffa-11e9-8d29-4d4e3279c10e.png">
+ <img width="200" src="https://user-images.githubusercontent.com/56157638-f47ff500-5ffa-11e9-8b24-d33dd900aa66.png">
  </div>
- 
