@@ -1,14 +1,12 @@
 # Mview
-beauty shop search and reservation chat application in Android
+beauty shop model search and reservation chat application in Android
  
-# Screenshpts
+# Screenshots
 _____________
 
 <div>
- <img width="200" src="https://user-images.githubusercontent.com/25197752/56156843-08c2f280-5ff9-11e9-81fc-f24a13725e4b.JPG">
- <img width="200" src="https://user-images.githubusercontent.com/25197752/56156845-095b8900-5ff9-11e9-8c71-51abf0f82eae.JPG">
- <img width="200" src="https://user-images.githubusercontent.com/25197752/56156846-095b8900-5ff9-11e9-9a41-0539e742b51c.JPG">
+ <img width="200" src="https://user-images.githubusercontent.com/56157366-4ecc8600-5ffa-11e9-815d-289cda87f6d9.png">
+ <img width="200" src="https://user-images.githubusercontent.com/56157402-64da4680-5ffa-11e9-8979-d002a2e31175.png">
+ <img width="200" src="https://user-images.githubusercontent.com/56157411-6b68be00-5ffa-11e9-9eb5-742ef28d8240.png">
  </div>
  
- 
-
