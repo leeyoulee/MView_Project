@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSemiGray"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_menu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorWhite"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    </android.support.v7.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorSemiGray" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorWhite"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/model"
+                    android:gravity="left"
+                    android:text=" 모델급구"
+                    android:id="@+id/modelBtn"
+                    android:textColor="#FF0000"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorWhite"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="무료모델"
+                    android:textSize="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/hairBtn_free"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/stroke"
+                        android:drawableTop="@drawable/hair"
+                        android:padding="10dp"
+                        android:text="헤어"
+                        android:textColor="@color/colorMain"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/nailBtn_free"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/stroke"
+                        android:drawableTop="@drawable/nail"
+                        android:padding="10dp"
+                        android:text="네일"
+                        android:textColor="@color/colorMain"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/skinBtn_free"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/stroke"
+                        android:drawableTop="@drawable/skin"
+                        android:padding="10dp"
+                        android:text="피부"
+                        android:textColor="@color/colorMain"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/makeupBtn_free"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/stroke"
+                        android:drawableTop="@drawable/makeup"
+                        android:padding="10dp"
+                        android:text="메이크업"
+                        android:textColor="@color/colorMain"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/eyebrowBtn_free"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/stroke"
+                        android:drawableTop="@drawable/eyebrow"
+                        android:padding="10dp"
+                        android:text="눈썹"
+                        android:textColor="@color/colorMain"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/snapBtn_free"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/stroke"
+                        android:drawableTop="@drawable/snap"
+                        android:padding="10dp"
+                        android:text="스냅/화보"
+                        android:textColor="@color/colorMain"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorWhite"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="유료모델"
+                    android:textSize="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/hairBtn_pay"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/stroke"
+                        android:drawableTop="@drawable/hair"
+                        android:padding="10dp"
+                        android:text="헤어"
+                        android:textColor="@color/colorMain"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/nailBtn_pay"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/stroke"
+                        android:drawableTop="@drawable/nail"
+                        android:padding="10dp"
+                        android:text="네일"
+                        android:textColor="@color/colorMain"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/skinBtn_pay"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/stroke"
+                        android:drawableTop="@drawable/skin"
+                        android:padding="10dp"
+                        android:text="피부"
+                        android:textColor="@color/colorMain"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/makeupBtn_pay"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/stroke"
+                        android:drawableTop="@drawable/makeup"
+                        android:padding="10dp"
+                        android:text="메이크업"
+                        android:textColor="@color/colorMain"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/eyebrowBtn_pay"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/stroke"
+                        android:drawableTop="@drawable/eyebrow"
+                        android:padding="10dp"
+                        android:text="눈썹"
+                        android:textColor="@color/colorMain"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/snapBtn_pay"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/stroke"
+                        android:drawableTop="@drawable/snap"
+                        android:padding="10dp"
+                        android:text="스냅/화보"
+                        android:textColor="@color/colorMain"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorWhite"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorWhite"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/noticeBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/stroke"
+                        android:drawableTop="@drawable/notice"
+                        android:padding="10dp"
+                        android:text="공지사항"
+                        android:textColor="@color/colorMain"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/qnaBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/stroke"
+                        android:drawableTop="@drawable/qna"
+                        android:padding="10dp"
+                        android:text="자주 묻는 질문"
+                        android:textColor="@color/colorMain"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/questionBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/stroke"
+                        android:drawableTop="@drawable/question"
+                        android:padding="10dp"
+                        android:text="1:1 문의"
+                        android:textColor="@color/colorMain"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
